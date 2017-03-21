@@ -1,8 +1,4 @@
-//
-//  AppDelegate.swift
-//  Sign In with UserDefaults
-//
-//  Created by Silicon Orchard Ltd on 3/21/17.
+
 //  Copyright © 2017 Nahin Ahmed. All rights reserved.
 //
 
