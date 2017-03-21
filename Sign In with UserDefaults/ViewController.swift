@@ -4,6 +4,8 @@
 
 import UIKit
 
+// login:- email: try@me.com, pass: test
+
 class ViewController: UIViewController {
     
     @IBOutlet weak var usernameTF: UITextField!
