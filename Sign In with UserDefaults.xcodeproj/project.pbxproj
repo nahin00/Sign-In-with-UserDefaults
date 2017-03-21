@@ -13,6 +13,7 @@
 		BC0E17181E81185A00ED722E /* Sign_In_with_UserDefaults.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BC0E17161E81185A00ED722E /* Sign_In_with_UserDefaults.xcdatamodeld */; };
 		BC0E171A1E81185A00ED722E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC0E17191E81185A00ED722E /* Assets.xcassets */; };
 		BC0E171D1E81185A00ED722E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC0E171B1E81185A00ED722E /* LaunchScreen.storyboard */; };
+		BC0E17271E81340C00ED722E /* LoggedinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0E17261E81340C00ED722E /* LoggedinViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BC0E17191E81185A00ED722E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC0E171C1E81185A00ED722E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC0E171E1E81185A00ED722E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC0E17261E81340C00ED722E /* LoggedinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggedinViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				BC0E170F1E81185A00ED722E /* AppDelegate.swift */,
 				BC0E17111E81185A00ED722E /* ViewController.swift */,
+				BC0E17261E81340C00ED722E /* LoggedinViewController.swift */,
 				BC0E17131E81185A00ED722E /* Main.storyboard */,
 				BC0E17191E81185A00ED722E /* Assets.xcassets */,
 				BC0E171B1E81185A00ED722E /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 				BC0E17121E81185A00ED722E /* ViewController.swift in Sources */,
 				BC0E17181E81185A00ED722E /* Sign_In_with_UserDefaults.xcdatamodeld in Sources */,
 				BC0E17101E81185A00ED722E /* AppDelegate.swift in Sources */,
+				BC0E17271E81340C00ED722E /* LoggedinViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

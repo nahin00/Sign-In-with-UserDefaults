@@ -19,18 +19,27 @@ class ViewController: UIViewController {
         let session = UserDefaults.standard
         if (session.object(forKey: "session") != nil){
             
-            loginDone()
-            
-        
+           // loginDone()
             
         } else {
             
             loginToDo()
             
-            
         }
         
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
         
+        let session = UserDefaults.standard
+        
+        if (session.object(forKey: "session") != nil){
+
+            let dc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "loggedin") as! LoggedinViewController
+            
+            present(dc, animated: true, completion: nil)
+            
+        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -106,8 +115,6 @@ class ViewController: UIViewController {
         
         task.resume()
         
-        
-        
     }
     
     
@@ -122,11 +129,14 @@ class ViewController: UIViewController {
     
     func loginDone(){
         
-        usernameTF.isEnabled = false
-        passwordTF.isEnabled = false
+        //usernameTF.isEnabled = false
+        //passwordTF.isEnabled = false
         
-        submitBtn.setTitle("Sign Out", for: .normal)
+        //submitBtn.setTitle("Sign Out", for: .normal)
         
+        let dc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "loggedin") as! LoggedinViewController
+        
+        present(dc, animated: true, completion: nil)
         
     }
 
